@@ -1,0 +1,167 @@
+=====================================================
+
+a) El comando hostname en ibsen y en el contenedor my-python.sif de Singularity
+
+#Comando hostname en ibsen
+
+ibsen
+
+#Comando hostname en el contenedor
+
+ibsen
+
+=====================================================
+
+b) El comando cat /etc/os-release en ibsen y en el contenedor my-python.sif de Singularity
+
+#Comando cat /etc/os-release en ibsen
+
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+
+#Comando cat /etc/os-release en my-python.sif
+
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+=====================================================
+
+c) El comando pwd en ibsen y en el contenedor my-python.sif de Singularity
+
+#Comando pwd en ibsen
+
+/home/alumno27/lab-7--Singularity
+
+#Comando pwd en el contenedor my-python.sif
+
+/home/alumno27/lab-7--Singularity
+
+=====================================================
+
+d) El comando ls -l /home en ibsen y en el contenedor my-python.sif de Singularity
+
+#Comando ls -l /home en ibsen
+
+total 156
+drwx------.  6 alejandro alejandro 4096 ene 16 14:17 alejandro
+drwx------. 20 alumno01  alumno01  4096 ene 20 10:14 alumno01
+drwx------. 14 alumno02  alumno02  4096 feb  6 19:01 alumno02
+drwx------.  2 alumno03  alumno03   133 nov 30 11:45 alumno03
+drwx------.  3 alumno04  alumno04   145 nov 30 12:44 alumno04
+drwx------.  2 alumno05  alumno05   133 nov 30 11:45 alumno05
+drwx------. 11 alumno06  alumno06  4096 ene  8 23:00 alumno06
+drwx------.  2 alumno07  alumno07   133 nov 30 11:59 alumno07
+drwx------. 21 alumno08  alumno08  4096 may  5 08:41 alumno08
+drwx------.  2 alumno09  alumno09   133 nov 30 12:03 alumno09
+drwx------.  2 alumno10  alumno10   133 nov 30 12:00 alumno10
+drwx------.  2 alumno11  alumno11   133 nov 30 12:00 alumno11
+drwx------.  2 alumno12  alumno12   133 nov 30 12:00 alumno12
+drwx------. 11 alumno13  alumno13  4096 feb  9  2022 alumno13
+drwx------. 17 alumno14  alumno14  4096 may  9 16:37 alumno14
+drwx------. 17 alumno15  alumno15  4096 ene 23 17:56 alumno15
+drwx------.  9 alumno16  alumno16  4096 ene 25 11:31 alumno16
+drwx------.  3 alumno17  alumno17   145 nov 30 12:45 alumno17
+drwx------.  3 alumno18  alumno18   145 nov 30 12:45 alumno18
+drwx------.  2 alumno19  alumno19   133 nov 30 12:05 alumno19
+drwx------. 15 alumno20  alumno20  4096 ene 14 16:25 alumno20
+drwx------. 13 alumno21  alumno21  4096 ene 13 19:19 alumno21
+drwx------. 21 alumno22  alumno22  4096 ene 24 11:41 alumno22
+drwx------. 19 alumno23  alumno23  4096 ene 13 11:21 alumno23
+drwx------. 14 alumno24  alumno24  4096 may  9 08:12 alumno24
+drwx------. 24 alumno25  alumno25  4096 may  6 11:36 alumno25
+drwx--x--x.  5 alumno26  alumno26  4096 feb 13 11:16 alumno26
+drwx------. 11 alumno27  alumno27  4096 may  9 17:45 alumno27
+drwx------. 13 alumno28  alumno28  4096 abr  4 17:48 alumno28
+drwx------.  2 alumno29  alumno29   133 nov 30 12:08 alumno29
+drwx------.  2 alumno30  alumno30   133 nov 30 12:08 alumno30
+drwx------.  2 alumno31  alumno31   133 nov 30 12:08 alumno31
+drwx------.  2 alumno32  alumno32   133 nov 29 19:25 alumno32
+drwx------. 11 alumno33  alumno33  4096 ene 15 11:13 alumno33
+drwx------. 25 alumno34  alumno34  4096 may  9 17:42 alumno34
+drwx------. 16 alumno35  alumno35  4096 may  3 12:19 alumno35
+drwx------. 11 alumno36  alumno36  4096 ene 14 11:57 alumno36
+drwx------.  6 aorenes   aorenes    238 jul 16  2022 aorenes
+drwx------.  2 asaura    asaura     132 feb  9 08:32 asaura
+drwx------.  3 biagio    biagio     147 sep 21  2020 biagio
+drwx------.  9 borja     borja     4096 abr 10 21:05 borja
+drwxr-xr-x.  4 carlos    carlos     236 may  1 18:11 carlos
+drwx------. 14 daniel    daniel    4096 may  9 13:30 daniel
+drwx------.  7 druiz     druiz      273 feb 10  2022 druiz
+drwx------. 42 fguil     fguil     8192 may  2 17:45 fguil
+drwx------.  2 fjguillen fjguillen  111 abr 27 17:55 fjguillen
+drwx------.  2 jabenza   jabenza    217 abr 28 09:53 jabenza
+drwx------.  6 jaime     jaime      244 may  3 15:22 jaime
+drwxr-xr-x. 16 jesus     jesus     4096 feb 15 20:55 jesus
+drwx------.  9 jesusg    jesusg    4096 feb  7 20:00 jesusg
+drwx------. 19 jhidalgo  jhidalgo  4096 jun 25  2021 jhidalgo
+drwx------. 30 jmgarcia  jmgarcia  4096 may  9 14:40 jmgarcia
+drwx------.  3 josemaria josemaria  232 ene 20 10:00 josemaria
+drwx------. 12 marcos    marcos    4096 may  5 10:04 marcos
+drwx------.  2 medicos   medicos    127 ene 10  2022 medicos
+lrwxrwxrwx.  1 root      root        18 jul 30  2021 modules -> /nas/hdd-0/modules
+drwx------. 83 pablo     pablo     8192 abr 24 18:01 pablo
+drwxr-xr-x. 12 pilar     pilar     4096 may  6 01:08 pilar
+drwx------.  6 raul      raul       252 ene 10  2022 raul
+drwx------.  3 salvador  salvador   205 abr 19 10:42 salvador
+drwx------.  6 saul      saul      4096 dic  1 19:11 saul
+drwx------.  5 vicente   vicente    226 ago 21  2022 vicente
+
+#Comando ls -l /home en el contenedor my-python.sif
+
+total 4
+drwx------. 11 alumno27 alumno27 4096 May  9 17:45 alumno27
+
+=====================================================
+
+e) El comando python –version en ibsen y en el contenedor my-python.sif de Singularity
+
+#El comando python –version en ibsen
+
+Python 3.8.5
+
+#El comando python -version en el contenedor
+
+Python 3.7.16
+=====================================================
+
+f) El notebook kmer-solution.ipynb que tienes en el subdirectorio source dentro de la imagen de Singularity, y el notebook kmer-solution.ipynb que tienes en el propio contenedor my-python.sif de Singularity
+
+#El notebook kmer-solution.ipynb en el directorio source
+
+[22;0t]0;IPython: alumno27/lab-7--SingularityStart
+Number of generated k-mers: 268435456
+
+740 ms ± 324 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+
+#el notebook kmer-solution que se encuentra en la imagen my-python.sif
+
+[22;0t]0;IPython: alumno27/lab-7--SingularityStart
+Number of generated k-mers: 268435456
+
+751 ms ± 1.19 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
